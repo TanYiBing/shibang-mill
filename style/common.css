@@ -722,3 +722,21 @@ q:after {
 /* recommend_product_banner-end */
 
 /* product-end */
+
+/* limestone-start */
+
+/* material_introduction_banner-start */
+
+.material_introduction_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.material_introduction_banner .introduct {
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+}
+
+/* material_introduction_banner-end */
+
+/* limestone-end */
