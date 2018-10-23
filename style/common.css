@@ -413,7 +413,7 @@ q:after {
 
 /* honor-end */
 
-/* honor-start */
+/* culture-start */
 
 .culture_banner {
     width: 100%;
@@ -425,6 +425,36 @@ q:after {
     padding: 78px 0px 50px 0px;
 }
 
-/* honor-end */
+/* culture-end */
 
 /* ABOUT US-end */
+
+/* Solution-start */
+
+/* urlnav-start */
+
+.breadcrumb {
+    background-color: #fff !important;
+    padding: 20px 15px !important;
+}
+
+/* urlnav-end */
+
+/* banner-start */
+
+.solution_banner {
+    height: 300px;
+    background: url(../images/about_us/u824.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.solution_banner p {
+    padding-top: 150px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* banner-end */
+
+/* Solution-end */
