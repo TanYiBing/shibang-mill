@@ -279,6 +279,23 @@ q:after {
 
 /* case_banner-end */
 
+/* form_banner-start */
+
+.form_banner {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.form-horizontal input,
+.form-horizontal select,
+.form-horizontal textarea {
+    background-color: #f2f2f2;
+    color: #bbbbbb;
+}
+
+
+/* form_banner-end */
+
 /* header-start */
 
 .header_nav .logo {
