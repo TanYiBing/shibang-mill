@@ -1,0 +1,430 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    font-family: 'Microsoft YaHei';
+}
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+optgroup {
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    background-color: #fff;
+    border: none;
+}
+
+code,
+kbd,
+samp,
+tt {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*@purpose To enable resizing for IE */
+
+/*@branch For IE6-Win, IE7-Win */
+
+input,
+button,
+textarea {
+    *font-size: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+sup,
+sub {
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* remember to highlight anchors and inserts somehow! */
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/**Common Css**/
+
+.fr {
+    float: right;
+    *display: inline;
+}
+
+.fl {
+    float: left;
+    *display: inline;
+}
+
+/*文本超出显示省略号*/
+
+.ehn,
+.otw,
+.tow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*清除浮动*/
+
+.clearfix {
+    clear: both;
+    *zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "\0020";
+    visibility: hidden;
+    height: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* header-start */
+
+.header_nav .logo {
+    width: 98px;
+    height: 98px;
+    background: url(../images/product/logo.png) no-repeat center;
+    background-size: cover;
+}
+
+.header_nav .logo>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+
+.header_nav .nav_list>li {
+    float: left;
+    height: 30px;
+    font-size: 16px;
+    margin: 34px 30px 34px 0px;
+    border-bottom: 2px solid #fff;
+}
+
+.header_nav .header_content .tel_pic {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../images/product/u334.png) no-repeat center;
+    background-size: cover;
+    margin: 31px 0px 37px 0px;
+}
+
+.header_nav .header_content>p {
+    margin: 35px 0px 43px 5px;
+}
+
+.header_nav li.active,
+.header_nav li:hover {
+    border-bottom: 2px solid #000;
+    color: #999999;
+}
+
+/* header-end */
+
+.header_nav .logo {
+    width: 98px;
+    height: 98px;
+    background: url(../images/product/logo.png) no-repeat center;
+    background-size: cover;
+}
+
+.header_nav .logo>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+
+.header_nav .nav_list>li {
+    float: left;
+    height: 30px;
+    font-size: 16px;
+    margin: 34px 30px 34px 0px;
+    border-bottom: 2px solid #fff;
+}
+
+.header_nav .header_content .tel_pic {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../images/product/u334.png) no-repeat center;
+    background-size: cover;
+    margin: 31px 0px 37px 0px;
+}
+
+.header_nav .header_content>p {
+    margin: 35px 0px 43px 5px;
+}
+
+.header_nav li.active,
+.header_nav li:hover {
+    border-bottom: 2px solid #000;
+    color: #999999;
+}
+
+/* head_home-start */
+
+/* head_home-end */
+
+/* footer-start */
+
+.footer_container {
+    width: 100%;
+    background-color: #3f3f3f;
+    color: #fff;
+}
+
+.footer_container .footer_content h2 {
+    color: #fff;
+    font-size: 20px;
+    padding: 55px 0px 25px 0px;
+}
+
+.footer_container .footer_content a {
+    color: #6e6e6e;
+    font-size: 14px;
+}
+
+.footer_container .footer_content li {
+    padding-bottom: 14px;
+}
+
+.footer_container .footer_content .more a {
+    color: #fff;
+}
+
+.copyright {
+    background-color: #303030;
+}
+
+.copyright>p {
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+/* footer-end */
+
+/* ABOUT US-start */
+
+/* urlnav-start */
+
+.breadcrumb {
+    background-color: #fff !important;
+    padding: 20px 15px !important;
+}
+
+/* urlnav-end */
+
+/* banner-start */
+
+.about_banner {
+    height: 300px;
+    background: url(../images/about_us/u824.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.about_banner p {
+    padding-top: 150px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* banner-end */
+
+/* introduction-start */
+
+.introduction_banner {
+    height: 570px;
+}
+
+.introduction_banner .left_pic {
+    width: 764px;
+    height: 570px;
+    background: url(../images/about_us/u822.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.introduction_banner .right_content {
+    width: 558px;
+    height: 484px;
+    background-color: #f2f2f2;
+    right: 0;
+    top: 45px;
+}
+
+.introduction_banner .right_content>h2 {
+    font-size: 30px;
+    padding: 35px 0px 27px 35px;
+}
+
+.introduction_banner .right_content>p {
+    color: #999999;
+    padding: 0px 0px 5px 35px;
+}
+
+/* introduction-end */
+
+/* honor-start */
+
+.honor_banner {
+    width: 100%;
+}
+
+.honor_banner .honor_header>h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 78px 0px 50px 0px;
+}
+
+/* honor-end */
+
+/* honor-start */
+
+.culture_banner {
+    width: 100%;
+}
+
+.culture_banner .culture_header>h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 78px 0px 50px 0px;
+}
+
+/* honor-end */
+
+/* ABOUT US-end */
