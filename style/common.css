@@ -292,8 +292,6 @@ q:after {
     background-color: #f2f2f2;
     color: #bbbbbb;
 }
-
-
 /* form_banner-end */
 
 /* header-start */
@@ -430,8 +428,6 @@ q:after {
     padding-bottom: 20px;
 }
 
-/* ABOUT US-start */
-
 /* urlnav-start */
 
 .breadcrumb {
@@ -440,6 +436,8 @@ q:after {
 }
 
 /* urlnav-end */
+
+/* ABOUT US-start */
 
 /* banner-start */
 
@@ -565,3 +563,118 @@ q:after {
 /* application_banner-end */
 
 /* Solution-end */
+
+/* ContactUs-start */
+
+/* banner-start */
+
+.contact_banner {
+    height: 300px;
+    width: 100%;
+    background: url(../images/contact_us/u1370.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contact_banner .container {
+    margin-top: 100px;
+}
+
+.contact_banner p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* banner-end */
+
+/* address_banner-start */
+
+.address_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.address_banner .special_address {
+    height: 240px;
+    width: 760px;
+}
+
+.address_banner .special_address .mock {
+    height: 240px;
+    width: 730px;
+    top: 0;
+    left: 15px;
+    background-color: #000;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.address_banner .special_address img {
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    top: 0;
+    left: 0;
+}
+
+.address_banner .special_address .mock_content {
+    height: 240px;
+    width: 725px;
+    top: 0;
+    left: 15px;
+    color: #fff;
+    z-index: 100;
+}
+
+.address_banner .special_address .mock_content>h2 {
+    font-size: 20px;
+    padding: 40px 0 10px 30px;
+}
+
+.address_banner .special_address .mock_content>p {
+    padding: 0 0 10px 30px;
+}
+
+.address_banner .address_item {
+    width: 350px;
+    height: 240px;
+    background-color: #ececec;
+    margin-bottom: 40px;
+}
+
+.address_banner .address_item>h2 {
+    font-size: 18px;
+    padding: 20px 0 10px 20px;
+}
+
+.address_banner .address_item>p {
+    padding: 0 0 10px 20px;
+    color: #999999;
+}
+
+/* address_banner-end */
+
+/* address_pic_banner-start */
+
+.address_pic_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.address_pic_banner .container {
+    height: 565px;
+}
+
+.address_pic_banner .container img {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+/* address_pic_banner-end */
+
+/* ContactUs-end */
