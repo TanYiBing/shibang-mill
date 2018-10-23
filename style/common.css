@@ -292,6 +292,7 @@ q:after {
     background-color: #f2f2f2;
     color: #bbbbbb;
 }
+
 /* form_banner-end */
 
 /* header-start */
@@ -678,3 +679,46 @@ q:after {
 /* address_pic_banner-end */
 
 /* ContactUs-end */
+
+/* product-start */
+
+/* product_banner-start */
+
+.product_banner {
+    margin-bottom: 40px;
+}
+
+.product_banner p {
+    font-size: 14px;
+    padding: 0 0 15px 20px;
+}
+
+.product_banner span {
+    color: #999999;
+}
+
+/* product_banner-end */
+
+/* recommend_product_banner-start */
+
+.recommend_product {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.recommend_product .mockPic_p>p {
+    height: 15%;
+    bottom: 0px;
+    color: #000;
+    padding-top: 3%;
+    text-align: center;
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+/* recommend_product_banner-end */
+
+/* product-end */
