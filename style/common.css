@@ -734,9 +734,72 @@ q:after {
 
 .material_introduction_banner .introduct {
     background-color: #f2f2f2;
-    padding: 20px 10px;
+    padding: 15px 10px;
+}
+
+.material_introduction_banner .introduct h4 {
+    font-size: 18px;
+    padding: 5px 0px 10px 15px;
+}
+
+.material_introduction_banner .introduct p {
+    color: #999999;
+    padding: 0px 0px 0px 15px;
 }
 
 /* material_introduction_banner-end */
+
+/* process_banner-start */
+
+.process_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.process_banner .process img {
+    height: 180px;
+    width: 335px;
+}
+
+.process_banner .process p {
+    color: #999999;
+    padding: 30px 20px 30px 20px;
+    background-color: #f2f2f2;
+}
+
+/* process_banner-end */
+
+/* application_banner-start */
+
+.application_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.application_banner .app_item {
+    width: 175px;
+    height: 110px;
+    margin-left: 15px;
+}
+
+.application_banner .app_item img {
+    width: 175px;
+    height: 110px;
+    top: 0;
+    right: 0;
+}
+
+.application_banner .app_item p {
+    color: #fff;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 175px;
+    height: 110px;
+    line-height: 110px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+/* application_banner-end */
 
 /* limestone-end */
