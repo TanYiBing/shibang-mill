@@ -803,3 +803,124 @@ q:after {
 /* application_banner-end */
 
 /* limestone-end */
+
+/* mtw-start */
+
+/* product_banner-start */
+
+.pro_detail .pro_introduct h1 {
+    color: #333;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.pro_detail .pro_introduct p {
+    color: #999999;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.pro_detail .seek_price a {
+    width: 165px;
+    height: 45px;
+    line-height: 33px;
+}
+
+.pro_detail .seek_phone a {
+    width: 155px;
+    height: 45px;
+    line-height: 33px;
+}
+
+/* product_banner-end */
+
+/* product_series-start */
+
+.product_series_banner #product_nav li {
+    float: left;
+}
+
+.product_series_banner #product_nav li a {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.product_series_banner #product_nav li.active {
+    background-color: #075ccb;
+}
+
+.product_series_banner #product_nav li:hover {
+    background-color: #075ccb;
+}
+
+.product_series_banner #product_nav li:hover a {
+    color: #fff;
+}
+
+.product_series_banner #product_nav li.active a {
+    color: #fff;
+}
+
+.product_series_banner hr {
+    margin-top: 0px;
+}
+
+/* product_series-end */
+
+/* feature_banner-start */
+
+.feature_banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.feature_banner .feature_pic {
+    width: 80px;
+    height: 80px;
+    background: url(../images/mtw/u412.png) no-repeat center;
+    margin-left: 15px;
+}
+
+.feature_banner .row {
+    margin-top: 40px;
+}
+
+.feature_banner .feature_pic img {
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: 15px;
+}
+
+.feature_banner .feature_content {
+    padding-left: 110px;
+}
+
+.feature_banner .feature_content h2 {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.feature_banner .feature_content p {
+    color: #999999;
+}
+
+/* feature_banner-end */
+
+/* principle_banner-start */
+
+
+.principle_banner .media-body p {
+    color: #999999;
+}
+
+/* principle_banner-end */
+
+/* parameter-start */
+
+/* parameter-end */
+
+/* mtw-end */
