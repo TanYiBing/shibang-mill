@@ -1034,7 +1034,7 @@ q:after {
 }
 
 .home_fivebanner td {
-    border: none!important;
+    border: none !important;
 }
 
 .super_mock:after {
@@ -1047,6 +1047,58 @@ q:after {
     top: 0;
     left: 0;
 }
+
+.bottom_mock:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom_con {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+}
+
+.bottom_con h2 {
+    padding: 3% 0 3% 3%;
+}
+
+.super_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.super_con h2 {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 12%;
+}
+
+.super_con p {
+    padding: 8% 8% 0 8%;
+    text-align: left;
+}
+
+.super_con a {
+    margin-top: 5%;
+}
+
 /* home_fivebanner-end */
 
 /* home-end */
