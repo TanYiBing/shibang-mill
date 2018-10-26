@@ -297,7 +297,7 @@ q:after {
 
 /* header-start */
 
-.header_nav .logo {
+/* .header_nav .logo {
     width: 98px;
     height: 98px;
     background: url(../images/product/logo.png) no-repeat center;
@@ -334,56 +334,67 @@ q:after {
 
 .header_nav li.active,
 .header_nav li:hover {
+    border-bottom: 2px solid #000;
+    color: #999999;
+} */
+
+.header_nav {
+    background-color: #fff;
+}
+.navbar-header {
+    height: 98px;
+}
+
+.navbar-brand {
+    height: 100%;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 98px;
+    height: 98px;
+}
+
+.header_nav .nav_list>li {
+    margin: 0px;
+    padding: 0 15px;
+}
+
+.header_nav .nav_list>li>a {
+    line-height: 30px;
+    padding: 15px 0px;
+    margin: 19px 0px 19px 0px;
+    font-size: 16px;
+}
+
+.header_nav .header_content .tel_pic {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../images/product/u334.png) no-repeat center;
+    background-size: cover;
+    margin: 37px 0px 37px 0px;
+}
+
+.header_nav .header_content>p {
+    line-height: 20px;
+    margin: 39px 0px 39px 5px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #fff;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.header_nav li.active a,
+.header_nav li:hover a {
     border-bottom: 2px solid #000;
     color: #999999;
 }
 
 /* header-end */
-
-.header_nav .logo {
-    width: 98px;
-    height: 98px;
-    background: url(../images/product/logo.png) no-repeat center;
-    background-size: cover;
-}
-
-.header_nav .logo>a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-indent: -9999px;
-}
-
-.header_nav .nav_list>li {
-    float: left;
-    height: 30px;
-    font-size: 16px;
-    margin: 34px 30px 34px 0px;
-    border-bottom: 2px solid #fff;
-}
-
-.header_nav .header_content .tel_pic {
-    width: 24px;
-    height: 24px;
-    float: left;
-    background: url(../images/product/u334.png) no-repeat center;
-    background-size: cover;
-    margin: 31px 0px 37px 0px;
-}
-
-.header_nav .header_content>p {
-    margin: 35px 0px 43px 5px;
-}
-
-.header_nav li.active,
-.header_nav li:hover {
-    border-bottom: 2px solid #000;
-    color: #999999;
-}
-
-/* head_home-start */
-
-/* head_home-end */
 
 /* footer-start */
 
