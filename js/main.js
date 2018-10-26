@@ -6,5 +6,9 @@ $(document).ready(function() {
     $('#equipmentTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
+    });
+    $('#casesTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
     })
 });
