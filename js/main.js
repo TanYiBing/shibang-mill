@@ -10,5 +10,9 @@ $(document).ready(function() {
     $('#casesTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
-    })
+    });
+    $('#aboutTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
 });
