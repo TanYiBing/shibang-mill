@@ -258,12 +258,10 @@ q:after {
 
 .case_banner {
     width: 100%;
-    margin-bottom: 50px;
 }
 
-.case_banner .case_item img {
-    width: 360px;
-    height: 240px;
+.case_banner .case_item {
+    margin-bottom: 40px;
 }
 
 .case_banner .case_item h2 {
@@ -273,6 +271,7 @@ q:after {
 }
 
 .case_banner .case_item p {
+    font-size: 14px;
     padding-top: 10px;
     color: #999999;
 }
@@ -648,8 +647,7 @@ q:after {
     margin-bottom: 40px;
 }
 
-.address_pic_banner .container {
-}
+.address_pic_banner .container {}
 
 .address_pic_banner .container img {
     width: 100%;
@@ -916,15 +914,6 @@ q:after {
     height: 642px;
     top: 0;
     left: 0;
-}
-
-.home_header_nav .mock {
-    width: 100%;
-    height: 642px;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 100;
 }
 
 .home_header_nav .home_head {
