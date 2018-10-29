@@ -581,15 +581,11 @@ q:after {
     background-size: cover;
 }
 
-.contact_banner .container {
-    margin-top: 100px;
-}
-
 .contact_banner p {
     color: #fff;
     font-size: 16px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 100px;
 }
 
 /* banner-end */
@@ -758,6 +754,7 @@ q:after {
 .application_banner .app_item {
     margin-bottom: 20px;
 }
+
 .application_banner .app_item p {
     color: #fff;
     text-align: center;
@@ -1305,6 +1302,7 @@ q:after {
     background: url(../images/materiel/u1508.jpg) no-repeat center;
     background-size: cover;
     color: #fff;
+    overflow: hidden;
 }
 
 .materialall_banner .materialall_banner_content h2 {
@@ -1325,24 +1323,27 @@ q:after {
     margin-bottom: 40px;
 }
 
-.material_item {
-    background-color: #f2f2f2;
-    padding-left: 0;
-    padding-right: 0;
+.materiallist_banner .material_item {
     margin-bottom: 40px;
 }
 
-.material_item .material_intro {
-    margin-left: -15px;
+.materiallist_banner .material_item .material_pic img {
+    height: 130px;
 }
 
-.material_item h2 {
+.materiallist_banner .material_item .material_intro {
+    background-color: #f2f2f2;
+    height: 130px;
+}
+
+.materiallist_banner .material_item h2 {
     font-size: 18px;
     padding-top: 10px;
 }
 
-.material_item p {
+.materiallist_banner .material_item p {
     color: #999999;
+    padding-bottom: 10px;
 }
 
 /* materiallist_banner-end */
