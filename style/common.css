@@ -773,6 +773,10 @@ q:after {
 
 /* product_banner-start */
 
+.new_product_banner {
+    margin-bottom: 20px;
+}
+
 .pro_detail .pro_introduct h1 {
     color: #333;
     font-size: 28px;
@@ -877,6 +881,9 @@ q:after {
 
 /* principle_banner-start */
 
+.principle_banner {
+    margin-bottom: 40px;
+}
 .principle_banner .media-body p {
     color: #999999;
 }
