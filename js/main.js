@@ -3,6 +3,10 @@ $(document).ready(function() {
         e.preventDefault()
         $(this).tab('show')
     });
+    $('#productBottomTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
     $('#equipmentTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
