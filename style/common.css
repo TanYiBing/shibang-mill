@@ -411,6 +411,12 @@ q:after {
     padding: 55px 0px 25px 0px;
 }
 
+@media(max-width: 750px) {
+    .footer_container .footer_content .footer_pro {
+        padding-left: 30px;
+    }
+}
+
 .footer_container .footer_content a {
     color: #6e6e6e;
     font-size: 14px;
@@ -980,7 +986,7 @@ q:after {
     z-index: 999;
     width: 100%;
     color: #fff;
-    top: 45%;
+    top: 200px;
 }
 
 .home_header_nav .home_intro h1 {
