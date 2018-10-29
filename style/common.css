@@ -523,6 +523,7 @@ q:after {
     height: 300px;
     background: url(../images/solution/u927.jpg) no-repeat center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .solution_banner>h2 {
@@ -559,13 +560,6 @@ q:after {
     font-size: 14px;
 }
 
-.application_banner .application_content .content_right .con_pic {
-    height: 365px;
-    width: 632px;
-    background: url(../images/solution/u1360.jpg) no-repeat center;
-    background-size: cover;
-}
-
 /* application_banner-end */
 
 /* Solution-end */
@@ -582,10 +576,13 @@ q:after {
 }
 
 .contact_banner p {
+    top: 0;
+    left: 0;
     color: #fff;
     font-size: 16px;
     text-align: center;
     padding-top: 100px;
+    z-index: 100;
 }
 
 /* banner-end */
@@ -884,6 +881,7 @@ q:after {
 .principle_banner {
     margin-bottom: 40px;
 }
+
 .principle_banner .media-body p {
     color: #999999;
 }
@@ -1384,3 +1382,10 @@ q:after {
 /* cases_banner-end */
 
 /* cases-end */
+
+.xs-hidden {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
