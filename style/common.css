@@ -756,27 +756,16 @@ q:after {
 }
 
 .application_banner .app_item {
-    width: 175px;
-    height: 110px;
-    margin-left: 15px;
+    margin-bottom: 20px;
 }
-
-.application_banner .app_item img {
-    width: 175px;
-    height: 110px;
-    top: 0;
-    right: 0;
-}
-
 .application_banner .app_item p {
     color: #fff;
     text-align: center;
     top: 0;
     right: 0;
-    width: 175px;
-    height: 110px;
-    line-height: 110px;
-    background: rgba(0, 0, 0, 0.5)
+    width: 100%;
+    line-height: 100px;
+    z-index: 999;
 }
 
 /* application_banner-end */
