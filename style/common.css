@@ -474,22 +474,13 @@ q:after {
 
 .introduction_banner {
     height: 570px;
-    margin-bottom: 78px;
-}
-
-.introduction_banner .left_pic {
-    width: 764px;
-    height: 570px;
-    background: url(../images/about_us/u822.jpg) no-repeat center;
-    background-size: cover;
+    margin-bottom: 70px;
+    background: url(../images/about_us/u822.jpg) no-repeat left;
+    overflow: hidden;
 }
 
 .introduction_banner .right_content {
-    width: 558px;
-    height: 484px;
     background-color: #f2f2f2;
-    right: 0;
-    top: 45px;
 }
 
 .introduction_banner .right_content>h2 {
