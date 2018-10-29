@@ -603,36 +603,12 @@ q:after {
 }
 
 .address_banner .special_address {
+    margin-bottom: 40px;
     height: 240px;
-    width: 760px;
-}
-
-.address_banner .special_address .mock {
-    height: 240px;
-    width: 730px;
-    top: 0;
-    left: 15px;
-    background-color: #000;
-    filter: alpha(opacity=40);
-    -moz-opacity: 0.4;
-    -khtml-opacity: 0.4;
-    opacity: 0.4;
-    z-index: 1;
-}
-
-.address_banner .special_address img {
-    height: 100%;
-    width: 100%;
-    padding: 0 15px;
-    top: 0;
-    left: 0;
+    background: url(../images/contact_us/u1406.jpg) no-repeat center;
 }
 
 .address_banner .special_address .mock_content {
-    height: 240px;
-    width: 725px;
-    top: 0;
-    left: 15px;
     color: #fff;
     z-index: 100;
 }
@@ -647,7 +623,7 @@ q:after {
 }
 
 .address_banner .address_item {
-    width: 350px;
+    width: 100%;
     height: 240px;
     background-color: #ececec;
     margin-bottom: 40px;
@@ -673,7 +649,6 @@ q:after {
 }
 
 .address_pic_banner .container {
-    height: 565px;
 }
 
 .address_pic_banner .container img {
