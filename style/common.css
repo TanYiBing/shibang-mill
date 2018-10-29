@@ -474,12 +474,12 @@ q:after {
 
 .introduction_banner {
     height: 570px;
-    margin-bottom: 70px;
     background: url(../images/about_us/u822.jpg) no-repeat left;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .introduction_banner .right_content {
-    margin: 45px 0;
     height: 480px;
     background-color: #f2f2f2;
     overflow: hidden;
