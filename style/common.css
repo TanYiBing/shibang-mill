@@ -567,6 +567,28 @@ q:after {
     font-size: 14px;
 }
 
+.application_banner .application_content .content_left .panel {
+    border: none !important;
+    border-bottom: 0px;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    margin-bottom: 35px;
+}
+
+.application_banner .application_content .content_left .panel-heading {
+    background-color: #fff !important;
+    padding: 0 !important;
+}
+
+.application_banner .application_content .content_left .panel-body {
+    border-top: none !important;
+    border-bottom: 1px solid #f2f2f2;
+    padding-left: 0 !important;
+    color: #999999;
+    font-size: 14px;
+}
+
 /* application_banner-end */
 
 /* Solution-end */
@@ -1401,3 +1423,4 @@ q:after {
     border: none !important;
     padding: 0;
 }
+

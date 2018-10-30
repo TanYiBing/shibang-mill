@@ -10,6 +10,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./style/common.css" />
     <script src="./js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.panel-title>a').click(function () {
+                var picIndex = $('.panel-title>a').index($(this));
+                $('.con_pic').each(function () {
+                    $(this).hide();
+                });
+                $($('.con_pic')[picIndex]).show();
+            })
+        });
+        
+    </script>
 </head>
 
 <body>
@@ -67,37 +79,148 @@
     <!-- banner-end -->
     <!-- urlnav-start -->
     <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li class="active">Solution</li>
-        </ol>
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Solution</li>
+            </ol>
+        </div>
     </div>
     <!-- urlnav-end -->
 
     <!-- application-start -->
     <div class="application_banner">
         <div class="container banner_header">
-            <div class="col-lg-12">
-                <h2>Application</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Application</h2>
+                </div>
             </div>
+
         </div>
         <div class="application_content container">
-            <div class="content_left col-lg-6 col-xs-12">
-                <p>Clean coal powder preparation, petroleum coke milling</p>
-                <p class="sub_p">As a non-renewable resource, coal is also an important energy source. It is also used as
-                    a good quality fuel in metallurgy, chemical...
-                </p>
-                <hr>
-                <p>Power plant limestone desulfurizer preparation field</p>
-                <p>Heavy calcium carbonate, lime grinding industry</p>
-                <p>Mineral grinding processing</p>
-                <p>Gypsum powder production line</p>
-                <p>Limestone ore powder (concrete, road ore)</p>
-            </div>
-            <div class="content_right col-lg-6 col-xs-12">
-                <div class="con_pic relative mockPic_p">
-                    <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
-                    <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+            <div class="row">
+                <div class="content_left col-lg-6 col-xs-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Ground Calcium Carbonate(GCC) Grinding Mill
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Ground Calcium Carbonate(GCC) is usually made by grinding natural carbonate minerals such as calcite, marble and limestone.
+                                    It can be got by wet or dry process. Currently, dry process is popular at home.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Coal powder preparation project
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    The system of blast furnace pulverized coal has been widely used in Electric Power, Steel and Metallurgical industry etc.
+                                    In the whole system, the preparation of pulverized coal is the most important step.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Gypsum Powder Production Line
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    To ensure the quality and quantity of gypsum powder production, smart gypsum powder production line which could complete
+                                    an automatic production is a choice for numerous enterprises.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="headingFour">
+                                        Grinding mill for Calcium carbonate
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    Calcium carbonate is divided into two categories: heavy calcium carbonate and precipitated calcium carbonate. Due to the
+                                    differences of the particle size, crystal form, the nature of interface
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Limestone powder desulfurizer process
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    Coal combustion will discharge large of SO2, NOx and CO2, which cause the Atmospheric environment pollution and Acid rain
+                                    more and more serious. It is imperative to strengthen control So2 discharge of thermal
+                                    power enterprises.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Barite powder grinding process
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    Barite belonging to non-renewable resources, can be used as white pigment (commonly known as lithopone), also can be used
+                                    in chemical, paper, textile packing, besides, it can act as a fluxing agent to increase
+                                    the brightness of the glass in glass production.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_right col-lg-6 col-xs-12 tab-content">
+                    <div class="con_pic relative mockPic_p" class="img-responsive" style="display:block">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive"> 
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
+                    <div class="con_pic relative mockPic_p" style="display:none">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
+                    <div class="con_pic relative mockPic_p" style="display:none">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
+                    <div class="con_pic relative mockPic_p" style="display:none">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
+                    <div class="con_pic relative mockPic_p" style="display:none">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
+                    <div class="con_pic relative mockPic_p" style="display:none">
+                        <img src="./images/solution/u1360.jpg" alt="" class="img-responsive">
+                        <p class="absolute">Clean coal powder preparation, petroleum coke milling</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,50 +230,56 @@
     <!-- material-start -->
     <div class="material_banner">
         <div class="container banner_header">
-            <div class="col-lg-6 col-xs-6">
-                <h2>Material</h2>
+            <div class="row">
+                <div class="col-lg-6 col-xs-6">
+                    <h2>Material</h2>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                    <a href="http://" class="fr">More</a>
+                </div>
             </div>
-            <div class="col-lg-6 col-xs-6">
-                <a href="http://" class="fr">More</a>
-            </div>
+
         </div>
         <div class="container material_thumbnail">
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u164.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
+            <div class="row">
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u164.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u166.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u168.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u170.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u172.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-xs-6">
+                    <a href="http://">
+                        <img src="./images/home/u174.png" alt="" class="img-responsive">
+                        <p>Attapulgite</p>
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u166.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u168.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u170.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u172.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <a href="http://">
-                    <img src="./images/home/u174.png" alt="">
-                    <p>Attapulgite</p>
-                </a>
-            </div>
+
         </div>
     </div>
     <!-- material-end -->
@@ -158,43 +287,46 @@
     <!-- case_banner-start -->
     <div class="case_banner">
         <div class="container banner_header">
-            <div class="col-lg-6">
-                <h2>Case</h2>
-            </div>
-            <div class="col-lg-6">
-                <a href="http://" class="fr">More</a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Case</h2>
+                </div>
+                <div class="col-lg-6">
+                    <a href="http://" class="fr">More</a>
+                </div>
             </div>
         </div>
         <div class="container">
-            <div class="case_item col-lg-4">
-                <a href="http://">
-                    <img src="./images/product/u358.jpg" alt="" class="img-responsive">
-                    <h2>India 35TPH Limestone Grinding Plant</h2>
-                    <p>Customer Address: India</p>
-                    <p>Input Material: limestone</p>
-                    <p>Finished Particle Size: 200 mesh, D90</p>
-                </a>
+            <div class="row">
+                <div class="case_item col-lg-4">
+                    <a href="http://">
+                        <img src="./images/product/u358.jpg" alt="" class="img-responsive">
+                        <h2>India 35TPH Limestone Grinding Plant</h2>
+                        <p>Customer Address: India</p>
+                        <p>Input Material: limestone</p>
+                        <p>Finished Particle Size: 200 mesh, D90</p>
+                    </a>
 
-            </div>
-            <div class="case_item col-lg-4">
-                <a href="http://">
-                    <img src="./images/product/u358.jpg" alt="" class="img-responsive">
-                    <h2>India 35TPH Limestone Grinding Plant</h2>
-                    <p>Customer Address: India</p>
-                    <p>Input Material: limestone</p>
-                    <p>Finished Particle Size: 200 mesh, D90</p>
-                </a>
+                </div>
+                <div class="case_item col-lg-4">
+                    <a href="http://">
+                        <img src="./images/product/u358.jpg" alt="" class="img-responsive">
+                        <h2>India 35TPH Limestone Grinding Plant</h2>
+                        <p>Customer Address: India</p>
+                        <p>Input Material: limestone</p>
+                        <p>Finished Particle Size: 200 mesh, D90</p>
+                    </a>
 
-            </div>
-            <div class="case_item col-lg-4">
-                <a href="http://">
-                    <img src="./images/product/u358.jpg" alt="" class="img-responsive">
-                    <h2>India 35TPH Limestone Grinding Plant</h2>
-                    <p>Customer Address: India</p>
-                    <p>Input Material: limestone</p>
-                    <p>Finished Particle Size: 200 mesh, D90</p>
-                </a>
-
+                </div>
+                <div class="case_item col-lg-4">
+                    <a href="http://">
+                        <img src="./images/product/u358.jpg" alt="" class="img-responsive">
+                        <h2>India 35TPH Limestone Grinding Plant</h2>
+                        <p>Customer Address: India</p>
+                        <p>Input Material: limestone</p>
+                        <p>Finished Particle Size: 200 mesh, D90</p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
