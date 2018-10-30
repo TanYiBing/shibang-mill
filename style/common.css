@@ -517,6 +517,14 @@ q:after {
     width: 100%;
 }
 
+.culture_banner .table-responsive {
+    border: none !important;
+}
+
+.culture_banner .tab-content td {
+    border: none !important;
+}
+
 /* culture-end */
 
 /* ABOUT US-end */
