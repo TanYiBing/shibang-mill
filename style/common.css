@@ -1383,7 +1383,7 @@ q:after {
 
 /* cases-end */
 
-/* solution-content-start */
+/* ground-calcium-carbonate-grinding-mill-start */
 
 /* solution_content_banner-start */
 
@@ -1515,4 +1515,112 @@ q:after {
 
 /* useIn_banner-end */
 
-/* solution-content-end */
+/* ground-calcium-carbonate-grinding-mill-end */
+
+/* coal-mill-start */
+
+/* lm-start */
+
+.lm {
+    width: 100%;
+    background-color: #fff8e8;
+    padding-bottom: 30px;
+}
+
+.lm .coal-left p.c-tiztle {
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+.lm .coal-left span {
+    font-weight: bold;
+}
+
+.lm .coal-right {
+    padding-top: 40px;
+}
+
+/* lm-end */
+
+/* mtm-start */
+
+.mtm {
+    width: 100%;
+    background-color: #fecb3c;
+    padding-bottom: 30px;
+}
+
+.mtm .coal-right p.c-tiztle {
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+.mtm .coal-right span {
+    font-weight: bold;
+}
+
+.mtm .coal-left {
+    padding-top: 40px;
+}
+
+/* mtm-end */
+
+/* mtw-start */
+
+.mtw {
+    width: 100%;
+    background-color: #ff4941;
+    padding-bottom: 30px;
+}
+
+.mtw .coal-left p {
+    color: #fff;
+}
+
+.mtw .coal-left p.c-tiztle {
+    margin-bottom: 30px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.mtw .coal-left span {
+    font-weight: bold;
+    color: #fff902;
+}
+
+.mtw .coal-right {
+    padding-top: 40px;
+}
+
+/* lm-end */
+
+/* scm-start */
+
+.scm {
+    width: 100%;
+    background-color: #16172a;
+    padding-bottom: 30px;
+}
+
+.scm .coal-right p {
+    color: #fff;
+}
+
+.scm .coal-right p.c-tiztle {
+    margin-bottom: 30px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.scm .coal-right span {
+    font-weight: bold;
+    color: #fff902;
+}
+
+.scm .coal-left {
+    padding-top: 40px;
+}
+
+/* scm-end */
+
+/* coal-mill-end */
