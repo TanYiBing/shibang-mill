@@ -1399,7 +1399,7 @@ q:after {
 /* intro_banner-start */
 
 .intro_banner {
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .intro_banner .cc-intros p.cc-intro {
@@ -1777,3 +1777,61 @@ q:after {
 /* hypsum_intor_banner-end */
 
 /* gypsum-powder-end */
+
+/* calcium-carbonate-start */
+
+/* calcium_banner-start */
+
+.calcium_carbonate_banner {
+    height: 300px;
+    background: url(../images/solution/solution-banner.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* calcium_banner-end */
+
+/* equipment_need_banner-start */
+
+.equipment_need_banner {
+    padding: 40px 0;
+}
+
+.equipment_need_banner h2.cc-intro {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.equipment_need_banner .en {
+    background-color: #f5f5f5;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.equipment_need_banner .en-img {
+    padding: 0;
+}
+
+.equipment_need_banner .en-content p {
+    text-align: justify;
+    color: #888;
+    padding: 40px 20px;
+}
+
+.equipment_need_banner .en-img span {
+    position: relative;
+    background: #000;
+    opacity: 0.7;
+    color: #fff;
+    margin-top: -33px;
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* equipment_need_banner-end */
+
+/* calcium-carbona-end */
