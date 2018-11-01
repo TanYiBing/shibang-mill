@@ -560,6 +560,10 @@ q:after {
     font-size: 14px;
 }
 
+.application_banner .application_content .content_left .panel-body a {
+    color: #286090;
+}
+
 /* application_banner-end */
 
 /* Solution-end */
