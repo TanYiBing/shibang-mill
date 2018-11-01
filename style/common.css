@@ -1834,4 +1834,50 @@ q:after {
 
 /* equipment_need_banner-end */
 
+/* applicationIn_banner-start */
+
+.applicationIn_banner {
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.applicationIn_banner p {
+    color: #888;
+}
+
+.applicationIn_banner h2.cc-intro {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.applicationIn_banner .af {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.applicationIn_banner .af span {
+    font-size: 24px;
+    font-weight: bold;
+    background: #181777;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.applicationIn_banner .af h5 {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+/* applicationIn_banner-end */
+
 /* calcium-carbona-end */
