@@ -1096,6 +1096,7 @@ q:after {
 
 .main_product_banner .tab-content h2 {
     font-size: 16px;
+    width: inherit;
     text-align: center;
     line-height: 60px;
     background-color: #f2f2f2;
