@@ -516,6 +516,16 @@ q:after {
     width: 100%;
 }
 
+.culture_banner .nav-pills li a {
+    background-color: #F2F2F2;
+    margin-right: 15px;
+    padding: 10px 0;
+}
+
+.culture_banner .nav-pills li.active a {
+    background-color: #075CCB;
+}
+
 .culture_banner .table-responsive {
     border: none !important;
 }
