@@ -284,6 +284,10 @@ q:after {
     margin-bottom: 50px;
 }
 
+.btn-primary {
+    background-color: #075CCB
+}
+
 .form-horizontal input,
 .form-horizontal select,
 .form-horizontal textarea {
