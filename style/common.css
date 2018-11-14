@@ -1279,6 +1279,16 @@ q:after {
     background-color: #ececec;
 }
 
+.product_bottom_banner .nav-pills li a {
+    background-color: #ECECEC;
+    margin-right: 15px;
+    padding: 10px 40px;
+}
+
+.product_bottom_banner .nav-pills li.active a {
+    background-color: #075CCB;
+}
+
 .product_bottom_banner .nav a {
     padding: 10px 30px;
 }
@@ -1292,14 +1302,14 @@ q:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     text-align: center;
     padding: 0 15px;
 }
 
 .product_bottom_banner .mock_content h2 {
     padding-top: 10px;
-    color: #333;
+    color: #333333;
     font-size: 16px;
 }
 
@@ -1320,12 +1330,12 @@ q:after {
 
 .product_bottom_banner a.pic_item:hover .mock_content>h2 {
     padding-top: 30px;
-    color: #333;
+    color: #333333;
     font-size: 16px;
 }
 
 .product_bottom_banner a.pic_item:hover .mock_content>p {
-    color: #333;
+    color: #999999;
     text-align: left;
     padding: 20px 0 0 10px;
 }
