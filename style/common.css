@@ -387,7 +387,7 @@ q:after {
     }
 }
 
-@media(min-width: 750px) {
+/* @media(min-width: 750px) {
     .col-lg-1,
     .col-lg-2,
     .col-lg-3,
@@ -402,7 +402,7 @@ q:after {
     .col-lg-12 {
         padding: 0 !important;
     }
-}
+} */
 
 .footer_container .footer_content a {
     color: #6e6e6e;
@@ -1098,14 +1098,14 @@ q:after {
 
 .home_product_banner {
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
     padding-top: 40px;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
 
 .home_product_banner .thumbnail {
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
     max-width: 268px;
 }
 
@@ -1118,7 +1118,7 @@ q:after {
     font-size: 18px;
     text-align: center;
     color: #000;
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
     padding-top: 20px;
 }
 
@@ -1195,6 +1195,18 @@ q:after {
 .main_product_banner {
     width: 100%;
     margin-bottom: 40px;
+}
+
+.main_product_banner .nav-pills li {
+    margin-right: 15px;
+}
+
+.main_product_banner .nav-pills li a {
+    background-color: #F2F2F2;
+}
+
+.main_product_banner .nav-pills li.active a {
+    background-color: #075CCB;
 }
 
 .main_product_banner .tab-content h2 {
@@ -1479,6 +1491,16 @@ q:after {
     height: 300px;
     background: url(../images/solution/u927.jpg) no-repeat center;
     background-size: cover;
+}
+
+.case_pills .nav-pills li a {
+    background-color: #F2F2F2;
+    margin-right: 15px;
+    padding: 10px 0;
+}
+
+.case_pills .nav-pills li.active a {
+    background-color: #075CCB;
 }
 
 .cases_banner .cases_banner_content {
