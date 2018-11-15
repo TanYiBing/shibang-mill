@@ -210,17 +210,17 @@ q:after {
     position: absolute;
 }
 
-.mockPic_p>p {
-    height: 10%;
+.boring>p {
+    font-size: 18px;
     width: 100%;
-    bottom: 0px;
+    height: 40px;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    line-height: 40px;
+    padding-left: 20px;
     color: #000;
-    padding-top: 1%;
-    background-color: #fff;
-    filter: alpha(opacity=50);
-    -moz-opacity: 0.5;
-    -khtml-opacity: 0.5;
-    opacity: 0.5;
 }
 
 /* urlnav-start */
@@ -535,7 +535,7 @@ q:after {
 
 .honor_banner {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 /* honor-end */
@@ -550,6 +550,7 @@ q:after {
     background-color: #F2F2F2;
     margin-right: 15px;
     padding: 10px 0;
+    border-radius: 0;
 }
 
 .culture_banner .nav-pills li.active a {
