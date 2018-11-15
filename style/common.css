@@ -1373,6 +1373,7 @@ q:after {
     background: url(../images/product/u189.jpg) no-repeat center;
     background-size: cover;
     overflow: hidden;
+    z-index: -2;
 }
 
 .products_banner .products_banner_content {
