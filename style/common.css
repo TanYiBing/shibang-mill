@@ -570,6 +570,7 @@ q:after {
 /* Solution-start */
 
 /* banner-start */
+
 .banner_mock {
     width: 100%;
     height: 100%;
@@ -1650,12 +1651,19 @@ q:after {
     height: 300px;
     background: url(../images/solution/u927.jpg) no-repeat center;
     background-size: cover;
+    z-index: -2;
 }
 
 .case_pills .nav-pills li a {
     background-color: #F2F2F2;
     margin-right: 15px;
     padding: 10px 0;
+    border-radius: 0;
+}
+
+.case_pills .nav-pills li:hover a {
+    background-color: #075CCB;
+    color: #fff;
 }
 
 .case_pills .nav-pills li.active a {
@@ -1663,7 +1671,6 @@ q:after {
 }
 
 .cases_banner .cases_banner_content {
-    z-index: 999;
     width: 100%;
     height: 100%;
     top: 0;
