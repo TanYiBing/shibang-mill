@@ -978,6 +978,10 @@ q:after {
     padding-bottom: 20px;
 }
 
+.header_20 .fr {
+    font-size: 16px;
+}
+
 .product_series_banner #product_nav li.active {
     background-color: #075ccb;
 }
