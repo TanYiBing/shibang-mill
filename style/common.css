@@ -535,7 +535,7 @@ q:after {
 
 .honor_banner {
     width: 100%;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 /* honor-end */
@@ -895,12 +895,25 @@ q:after {
     width: 165px;
     height: 45px;
     line-height: 33px;
+    text-align: center;
+    padding-left: 30px;
+    border-radius: 0;
+    background: url(../images/mtw/u398.png) no-repeat left;
+    background-position: 15% 50%;
+    background-size: 25px 25px
 }
 
 .pro_detail .seek_phone a {
     width: 155px;
     height: 45px;
     line-height: 33px;
+    border-radius: 0;
+    padding-left: 30px;
+    border-radius: 0;
+    background: url(../images/mtw/u662.png) no-repeat left;
+    background-position: 20% 50%;
+    background-size: 25px 25px;
+    background-color: #FF9900;
 }
 
 /* product_banner-end */
