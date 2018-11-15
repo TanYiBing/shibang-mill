@@ -32,7 +32,7 @@ th,
 td {
     margin: 0;
     padding: 0;
-    font-family: "微软雅黑";
+    font-family: 'calibri';
 }
 
 fieldset,
@@ -44,7 +44,7 @@ ul,
 ol,
 li {
     list-style: none;
-    font-family: 'Microsoft YaHei';
+    font-family: 'calibri';
 }
 
 /* remember to define focus styles! */
@@ -211,7 +211,7 @@ q:after {
 }
 
 .boring>p {
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     height: 40px;
     text-align: left;
@@ -230,6 +230,14 @@ q:after {
     padding: 20px 15px !important;
 }
 
+.breadcrumb li {
+    font-size: 18px;
+}
+
+.breadcrumb li a {
+    font-size: 18px;
+}
+
 /* urlnav-end */
 
 /* material_banner-start */
@@ -242,7 +250,7 @@ q:after {
 }
 
 .material_banner .material_thumbnail p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding: 10px 0;
 }
@@ -276,6 +284,18 @@ q:after {
 
 /* case_banner-start */
 
+.case_item h2 {
+    font-size: 18px;
+    padding-top: 15px;
+    color: #000;
+}
+
+.case_item p {
+    font-size: 16px;
+    padding-top: 10px;
+    color: #999999;
+}
+
 .case_banner {
     width: 100%;
 }
@@ -289,13 +309,13 @@ q:after {
 }
 
 .case_banner .case_item h2 {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 15px;
     color: #000;
 }
 
 .case_banner .case_item p {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 10px;
     color: #999999;
 }
@@ -309,6 +329,10 @@ q:after {
     margin-bottom: 50px;
 }
 
+.form_banner p {
+    font-size: 16px;
+}
+
 .btn-primary {
     background-color: #075CCB
 }
@@ -316,8 +340,10 @@ q:after {
 .form-horizontal input,
 .form-horizontal select,
 .form-horizontal textarea {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     color: #bbbbbb;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* form_banner-end */
@@ -435,7 +461,7 @@ q:after {
 
 .footer_container .footer_content a {
     color: #6e6e6e;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer_container .footer_content li {
@@ -451,6 +477,7 @@ q:after {
 }
 
 .copyright>p {
+    font-size: 16px;
     color: #fff;
     text-align: center;
     padding: 25px 0;
@@ -459,7 +486,12 @@ q:after {
 /* footer-end */
 
 .banner_header h2 {
-    font-size: 20px;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.subbanner_header h2 {
+    font-size: 24px;
     padding-bottom: 20px;
 }
 
@@ -520,12 +552,13 @@ q:after {
 }
 
 .introduction_banner .right_content>h2 {
-    font-size: 30px;
+    font-size: 32px;
     padding: 35px 0px 27px 35px;
 }
 
 .introduction_banner .right_content>p {
     color: #999999;
+    font-size: 16px;
     padding: 0px 0px 5px 35px;
 }
 
@@ -551,6 +584,7 @@ q:after {
     margin-right: 15px;
     padding: 10px 0;
     border-radius: 0;
+    font-size: 20px;
 }
 
 .culture_banner .nav-pills li.active a {
@@ -592,7 +626,7 @@ q:after {
 
 .solution_banner>h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding-top: 95px;
     padding-bottom: 40px;
@@ -600,7 +634,7 @@ q:after {
 
 .solution_banner p {
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -616,12 +650,6 @@ q:after {
 .application_banner .application_content .content_left p {
     padding-bottom: 20px;
     font-size: 16px;
-}
-
-.application_banner .application_content .content_left .sub_p {
-    padding-bottom: 0px;
-    color: #999999;
-    font-size: 14px;
 }
 
 .application_banner .application_content .content_left .panel {
@@ -670,7 +698,7 @@ q:after {
     top: 0;
     left: 0;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     padding-top: 100px;
 }
@@ -702,6 +730,7 @@ q:after {
 
 .address_banner .special_address .mock_content>p {
     padding: 0 0 10px 30px;
+    font-size: 16px;
 }
 
 .address_banner .address_item {
@@ -717,7 +746,8 @@ q:after {
 }
 
 .address_banner .address_item>p {
-    padding: 0 0 10px 20px;
+    font-size: 16px;
+    padding: 0 0 0 20px;
     color: #999999;
 }
 
@@ -774,7 +804,7 @@ q:after {
 }
 
 .recommend_product .mockPic_p>p {
-    height: 15%;
+    /* height: 15%;
     bottom: 0px;
     color: #000;
     padding-top: 3%;
@@ -783,7 +813,16 @@ q:after {
     filter: alpha(opacity=50);
     -moz-opacity: 0.5;
     -khtml-opacity: 0.5;
-    opacity: 0.5;
+    opacity: 0.5; */
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    bottom: 0;
+    left: 0;
 }
 
 .recommend_product .thumbnail {
@@ -887,11 +926,13 @@ q:after {
 
 .pro_detail .pro_introduct p {
     color: #999999;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px;
 }
 
 .pro_detail .seek_price a {
+    font-size: 16px;
     width: 165px;
     height: 45px;
     line-height: 33px;
@@ -904,6 +945,7 @@ q:after {
 }
 
 .pro_detail .seek_phone a {
+    font-size: 16px;
     width: 155px;
     height: 45px;
     line-height: 33px;
@@ -925,9 +967,15 @@ q:after {
 }
 
 .product_series_banner #product_nav li a {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 40px;
     padding: 0 20px;
+    color: #000;
+}
+
+.header_20 {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .product_series_banner #product_nav li.active {
@@ -1002,8 +1050,7 @@ q:after {
 
 .feature_banner .feature_content h2 {
     padding-bottom: 10px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
 }
 
 .feature_banner .feature_content p {
@@ -1018,8 +1065,9 @@ q:after {
     margin-bottom: 40px;
 }
 
-.principle_banner .media-body p {
+.principle_banner p {
     color: #999999;
+    font-size: 16px;
 }
 
 /* principle_banner-end */
@@ -1221,11 +1269,11 @@ q:after {
 }
 
 .home_header_nav .home_intro h1 {
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .home_header_nav .home_intro p {
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 20px;
 }
 
@@ -1306,6 +1354,7 @@ q:after {
 
 .bottom_con h2 {
     padding: 3% 0 3% 3%;
+    font-size: 18px;
 }
 
 .super_con {
@@ -1319,12 +1368,13 @@ q:after {
 }
 
 .super_con h2 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     padding-top: 12%;
 }
 
 .super_con p {
+    font-size: 16px;
     padding: 8% 8% 0 8%;
     text-align: left;
 }
@@ -1354,6 +1404,7 @@ q:after {
     background-color: #F2F2F2;
     padding: 10px 40px;
     border-radius: 0;
+    font-size: 20px;
 }
 
 .main_product_banner .nav-pills li:hover a {
@@ -1366,7 +1417,7 @@ q:after {
 }
 
 .main_product_banner .tab-content h2 {
-    font-size: 16px;
+    font-size: 18px;
     width: inherit;
     text-align: center;
     line-height: 60px;
@@ -1402,12 +1453,12 @@ q:after {
 }
 
 .products_banner .products_banner_content h2 {
-    font-size: 28px;
+    font-size: 40px;
     padding-top: 60px;
 }
 
 .products_banner .products_banner_content p {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 40px;
 }
 
@@ -1429,6 +1480,7 @@ q:after {
 .product_bottom_banner .nav-pills li a {
     background-color: #ECECEC;
     padding: 10px 50px;
+    font-size: 20px;
 }
 
 .product_bottom_banner .nav-pills li.active a {
@@ -1462,12 +1514,13 @@ q:after {
 .product_bottom_banner .mock_content h2 {
     padding-top: 10px;
     color: #333333;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .product_bottom_banner .mock_content p {
     text-align: left;
     padding: 20px 0 0 10px;
+    font-size: 16px;
 }
 
 .product_bottom_banner .mock_content {
@@ -1483,13 +1536,14 @@ q:after {
 .product_bottom_banner a.pic_item:hover .mock_content>h2 {
     padding-top: 30px;
     color: #333333;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .product_bottom_banner a.pic_item:hover .mock_content>p {
     color: #999999;
     text-align: left;
     padding: 20px 0 0 10px;
+    font-size: 16px;
 }
 
 /* product_bottom_banner-end */
@@ -1543,7 +1597,7 @@ q:after {
 }
 
 .newslist_banner .news_date .date_day {
-    font-size: 58px;
+    font-size: 56px;
     text-align: center;
     line-height: 100%;
     padding-top: 10%;
@@ -1673,9 +1727,11 @@ q:after {
 
 .case_pills .nav-pills li a {
     background-color: #F2F2F2;
-    margin-right: 15px;
+    margin-right: 10px;
     padding: 10px 0;
     border-radius: 0;
+    font-size: 20px;
+    color: #000;
 }
 
 .case_pills .nav-pills li:hover a {
@@ -1697,12 +1753,12 @@ q:after {
 }
 
 .cases_banner .cases_banner_content h2 {
-    font-size: 28px;
+    font-size: 40px;
     padding-top: 80px;
 }
 
 .cases_banner .cases_banner_content p {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 40px;
 }
 
