@@ -1489,6 +1489,7 @@ q:after {
     height: 300px;
     background: url(../images/news/u664.jpg) no-repeat center;
     background-size: cover;
+    z-index: -2;
 }
 
 .news_banner .news_banner_content {
