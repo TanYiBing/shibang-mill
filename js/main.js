@@ -23,4 +23,12 @@ $(document).ready(function() {
         e.preventDefault()
         $(this).tab('show')
     });
+    $('.moreAddress').click(function (e) {
+        $('.more_address').show();
+        $(this).hide();
+    })
+    $('.lessAddress').click(function (e) {
+        $('.more_address').hide();
+        $('.moreAddress').show();
+    })
 });
