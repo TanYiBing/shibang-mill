@@ -345,6 +345,11 @@ q:after {
     font-size: 16px;
 }
 
+.form_banner .btn-primary {
+    font-size: 16px;
+    line-height: 36px;
+}
+
 .btn-primary {
     background-color: #075CCB
 }
@@ -392,6 +397,7 @@ q:after {
     padding: 15px 0px;
     margin: 19px 0px 19px 0px;
     font-size: 16px;
+    color: #999999;
 }
 
 .header_nav .header_content .tel_pic {
@@ -410,6 +416,7 @@ q:after {
 
 .navbar-default .navbar-nav>.active>a {
     background-color: #fff;
+    color: #333333;
 }
 
 .navbar-default .navbar-nav li a {
@@ -418,6 +425,7 @@ q:after {
 
 .navbar-default .navbar-nav li.active:hover>a {
     background-color: #fff;
+    color: #333333;
 }
 
 .navbar {
@@ -1573,6 +1581,10 @@ q:after {
     text-align: left;
     padding: 20px 0 0 10px;
     font-size: 16px;
+}
+
+.product_bottom_banner a.pic_item .col-lg-4 {
+    padding: 0 15px 0 0!important;
 }
 
 /* product_bottom_banner-end */
