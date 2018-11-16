@@ -230,6 +230,12 @@ q:after {
     padding: 20px 15px !important;
 }
 
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">";
+}
+
 .breadcrumb li {
     font-size: 18px;
 }

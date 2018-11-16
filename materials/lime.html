@@ -253,111 +253,118 @@
     <!-- application_banner-end -->
     <!-- form_banner-start -->
     <div class="form_banner">
-        <div class="container banner_header">
-            <div class="col-lg-12">
-                <h2>Contact us</h2>
+        <div class="container header_20">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Contact us</h2>
+                </div>
             </div>
         </div>
         <div class="container">
-            <div class="col-lg-12">
-                <p style="color:#999999;margin-bottom:20px;">If you would like to get help immediately, PLS click the LIVE-CHAT,
-                    which is fixed on the right of browser. Meanwhile, you can also fill your requirements on the following
-                    form, we will contact you on the right time.</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="color:#999999;margin-bottom:20px;">If you would like to get help immediately, PLS click the LIVE-CHAT,
+                        which is fixed on the right of browser. Meanwhile, you can also fill your requirements on the following
+                        form, we will contact you on the right time.</p>
+                </div>
             </div>
         </div>
         <div class="container">
-            <form action="http://inquiry.shibangchina.com/updata.php" name="feedback" class="form-horizontal col-lg-12" method="post">
-                <input name="enews" type="hidden" value="AddFeedback">
-                <input name="bid" type="hidden" value="1">
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <label class="sr-only" for="name">Your Name</label>
-                        <input type="text" class="form-control" name="name" placeholder="Name" id="name">
+            <div class="row">
+                <form action="http://inquiry.shibangchina.com/updata.php" name="feedback" class="form-horizontal col-lg-12" method="post">
+                    <input name="enews" type="hidden" value="AddFeedback">
+                    <input name="bid" type="hidden" value="1">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label class="sr-only" for="name">Your Name</label>
+                            <input type="text" class="form-control" name="name" placeholder="Name" id="name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="sr-only" for="phone">Your Phone</label>
+                            <input type="text" class="form-control" required name="phone" placeholder="Tel" id="phone">
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label class="sr-only" for="phone">Your Phone</label>
-                        <input type="text" class="form-control" required name="phone" placeholder="Tel" id="phone">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label class="sr-only" for="email">Your Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="sr-only" for="company">Your Company</label>
+                            <input type="text" class="form-control" name="company" placeholder="Company Name" id="company">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <label class="sr-only" for="email">Your Email</label>
-                        <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label class="sr-only" for="country">Localtion Of Equipment</label>
+                            <input type="text" class="form-control" name="country" placeholder="Location Of Equipment" id="country">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="sr-only" for="application">Application</label>
+                            <input type="text" class="form-control" name="application" placeholder="Application" id="application">
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label class="sr-only" for="company">Your Company</label>
-                        <input type="text" class="form-control" name="company" placeholder="Company Name" id="company">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label class="sr-only" for="application">Select Product</label>
+                            <select id="product" class="form-control">
+                                <option value="0" selected disabled>Select Product</option>
+                                <optgroup label="Crushing Machines">
+                                    <option value="1">Jaw Crusher</option>
+                                    <option value="2">Cone Crusher</option>
+                                    <option value="3">Impact Crusher</option>
+                                    <option value="4">Sand Making Machine</option>
+                                    <option value="5">Vibrating Feeder</option>
+                                    <option value="6">Vibrating Screen</option>
+                                    <option value="7">Belt Conveyor</option>
+                                </optgroup>
+                                <optgroup label="Grinding Mills">
+                                    <option value="8">0-3mm Powder Mill</option>
+                                    <option value="9">100-625mesh Powder Mill</option>
+                                    <option value="10">625-2500mesh Powder Mill</option>
+                                </optgroup>
+                                <optgroup label="Mobile Plants">
+                                    <option value="11">Wheel Mobile Crushing plant</option>
+                                    <option value="12">Track-type mobile crushing plant</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="sr-only" for="material">Select Material</label>
+                            <select id="material" class="form-control">
+                                <option value="0" selected disabled>Select Material</option>
+                                <option value="1">Limestone</option>
+                                <option value="2">Calcite</option>
+                                <option value="3">Coal Powder</option>
+                                <option value="4">Gypsum</option>
+                                <option value="5">Dolomite</option>
+                                <option value="6">Barite</option>
+                                <option value="7">Marble</option>
+                                <option value="8">Talc</option>
+                                <option value="9">Basalt</option>
+                                <option value="10">Granite</option>
+                                <option value="11">Building Wastes</option>
+                                <option value="12">Pebble</option>
+                                <option value="13">Tuff</option>
+                                <option value="14">Tailing</option>
+                                <option value="15">Feldspar</option>
+                                <option value="16">&gt;&gt;Others</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <label class="sr-only" for="country">Localtion Of Equipment</label>
-                        <input type="text" class="form-control" name="country" placeholder="Location Of Equipment" id="country">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <textarea name="content" cols="30" rows="10" class="form-control" placeholder="If you can show your requirements in details such as materials, capacity and finished product design, we can offer better service for you!"></textarea>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label class="sr-only" for="application">Application</label>
-                        <input type="text" class="form-control" name="application" placeholder="Application" id="application">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <label class="sr-only" for="application">Select Product</label>
-                        <select id="product" class="form-control">
-                            <option value="0" selected disabled>Select Product</option>
-                            <optgroup label="Crushing Machines">
-                                <option value="1">Jaw Crusher</option>
-                                <option value="2">Cone Crusher</option>
-                                <option value="3">Impact Crusher</option>
-                                <option value="4">Sand Making Machine</option>
-                                <option value="5">Vibrating Feeder</option>
-                                <option value="6">Vibrating Screen</option>
-                                <option value="7">Belt Conveyor</option>
-                            </optgroup>
-                            <optgroup label="Grinding Mills">
-                                <option value="8">0-3mm Powder Mill</option>
-                                <option value="9">100-625mesh Powder Mill</option>
-                                <option value="10">625-2500mesh Powder Mill</option>
-                            </optgroup>
-                            <optgroup label="Mobile Plants">
-                                <option value="11">Wheel Mobile Crushing plant</option>
-                                <option value="12">Track-type mobile crushing plant</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label class="sr-only" for="material">Select Material</label>
-                        <select id="material" class="form-control">
-                            <option value="0" selected disabled>Select Material</option>
-                            <option value="1">Limestone</option>
-                            <option value="2">Calcite</option>
-                            <option value="3">Coal Powder</option>
-                            <option value="4">Gypsum</option>
-                            <option value="5">Dolomite</option>
-                            <option value="6">Barite</option>
-                            <option value="7">Marble</option>
-                            <option value="8">Talc</option>
-                            <option value="9">Basalt</option>
-                            <option value="10">Granite</option>
-                            <option value="11">Building Wastes</option>
-                            <option value="12">Pebble</option>
-                            <option value="13">Tuff</option>
-                            <option value="14">Tailing</option>
-                            <option value="15">Feldspar</option>
-                            <option value="16">&gt;&gt;Others</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <textarea name="content" cols="30" rows="10" class="form-control" placeholder="If you can show your requirements in details such as materials, capacity and finished product design, we can offer better service for you!"></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-block btn-primary">Submit</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
+    
         </div>
     </div>
     <!-- form_banner-end -->
