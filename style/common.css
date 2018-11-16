@@ -220,7 +220,7 @@ q:after {
     background: rgba(255, 255, 255, 0.8);
     line-height: 40px;
     padding-left: 20px;
-    color: #000;
+    color: #333;
 }
 
 /* urlnav-start */
@@ -244,15 +244,15 @@ q:after {
 
 .material_banner {
     width: 100%;
-    background-color: #f8f8f8;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
 }
 
 .material_banner .material_thumbnail p {
     font-size: 18px;
     text-align: center;
     padding: 10px 0;
+    color: #333;
 }
 
 .material_banner .nav li a {
@@ -287,12 +287,12 @@ q:after {
 .case_item h2 {
     font-size: 18px;
     padding-top: 15px;
-    color: #000;
+    color: #333;
 }
 
 .case_item p {
+    line-height: 22px;
     font-size: 16px;
-    padding-top: 10px;
     color: #999999;
 }
 
@@ -310,14 +310,14 @@ q:after {
 
 .case_banner .case_item h2 {
     font-size: 18px;
-    padding-top: 15px;
-    color: #000;
+    padding: 15px 0;
+    color: #333;
 }
 
 .case_banner .case_item p {
     font-size: 16px;
-    padding-top: 10px;
     color: #999999;
+    line-height: 22px;
 }
 
 /* case_banner-end */
@@ -345,6 +345,8 @@ q:after {
     border-radius: 0;
     box-shadow: none;
 }
+
+.form-horizontal .form-control {}
 
 /* form_banner-end */
 
@@ -417,7 +419,7 @@ q:after {
     display: block;
     height: 3px;
     width: 20px;
-    background-color: #000;
+    background-color: #333;
 }
 
 /* header-end */
@@ -442,7 +444,7 @@ q:after {
     }
 }
 
-/* @media(min-width: 750px) {
+@media(min-width: 750px) {
     .col-lg-1,
     .col-lg-2,
     .col-lg-3,
@@ -457,7 +459,7 @@ q:after {
     .col-lg-12 {
         padding: 0 !important;
     }
-} */
+}
 
 .footer_container .footer_content a {
     color: #6e6e6e;
@@ -487,7 +489,14 @@ q:after {
 
 .banner_header h2 {
     font-size: 32px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
+    padding-top: 60px;
+}
+
+.banner_header .fr {
+    font-size: 16px;
+    padding-bottom: 35px;
+    padding-top: 60px;
 }
 
 .subbanner_header h2 {
@@ -499,7 +508,7 @@ q:after {
 
 .breadcrumb {
     background-color: #fff !important;
-    padding: 15px 15px !important;
+    padding: 15px 0px !important;
 }
 
 /* urlnav-end */
@@ -820,7 +829,7 @@ q:after {
     text-align: center;
     font-size: 18px;
     background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    color: #333;
     bottom: 0;
     left: 0;
 }
@@ -970,11 +979,12 @@ q:after {
     font-size: 20px;
     line-height: 40px;
     padding: 0 20px;
-    color: #000;
+    color: #333;
 }
 
 .header_20 {
     font-size: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -1286,11 +1296,11 @@ q:after {
 /* home_fivebanner-start */
 
 .home_fivebanner .pic_small {
-    width: 274px;
+    /* width: 274px; */
 }
 
 .home_fivebanner .pic_big {
-    width: 574px;
+    /* width: 574px; */
 }
 
 .home_fivebanner td {
@@ -1300,9 +1310,7 @@ q:after {
 .home_product_banner {
     width: 100%;
     background-color: #F2F2F2;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .home_product_banner .thumbnail {
@@ -1318,7 +1326,7 @@ q:after {
     max-width: 268px;
     font-size: 18px;
     text-align: center;
-    color: #000;
+    color: #333;
     background-color: #F2F2F2;
     padding-top: 20px;
 }
@@ -1406,7 +1414,7 @@ q:after {
 
 .main_product_banner .nav-pills li a {
     background-color: #F2F2F2;
-    padding: 10px 40px;
+    padding: 8px 60px;
     border-radius: 0;
     font-size: 20px;
 }
@@ -1735,7 +1743,7 @@ q:after {
     padding: 10px 0;
     border-radius: 0;
     font-size: 20px;
-    color: #000;
+    color: #333;
 }
 
 .case_pills .nav-pills li:hover a {
@@ -1790,7 +1798,7 @@ q:after {
 }
 
 .intro_banner .cc-intros p.cc-intro {
-    color: #000;
+    color: #333;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -1838,7 +1846,7 @@ q:after {
     top: -15px;
     font-size: 18px;
     background: #f5f5f5;
-    color: #000;
+    color: #333;
 }
 
 .grinding_pro_banner .cscm .cscm-left h4 {
@@ -2037,7 +2045,7 @@ q:after {
 }
 
 .overview_banner p.cc-intro {
-    color: #000;
+    color: #333;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -2097,7 +2105,7 @@ q:after {
 }
 
 .gypsum_application_banner .media_con .media-body h4 {
-    color: #000;
+    color: #333;
     margin-top: 15px;
 }
 
@@ -2137,7 +2145,7 @@ q:after {
 .gypsum_intro_banner .con-right .con-title {
     padding: 0;
     margin: 40px 0 0 25px;
-    color: #000;
+    color: #333;
     font-size: 18px;
 }
 
@@ -2208,7 +2216,7 @@ q:after {
 
 .equipment_need_banner .en-img span {
     position: relative;
-    background: #000;
+    background: #333;
     opacity: 0.7;
     color: #fff;
     margin-top: -33px;
@@ -2379,7 +2387,7 @@ q:after {
 
 .chemical_principle_banner .intro-right p.pr {
     font-size: 30px;
-    color: #000;
+    color: #333;
     margin: 25px 0 10px 0;
 }
 
@@ -2398,7 +2406,7 @@ q:after {
 }
 
 .chemical_principle_banner .intro-right .jane>span {
-    color: #000;
+    color: #333;
 }
 
 /* chemical_principle_banner-end */
@@ -2487,7 +2495,7 @@ q:after {
 
 .instance_site_banner .intro-right .war3club span {
     position: relative;
-    background: #000;
+    background: #333;
     opacity: 0.7;
     color: #fff;
     margin-top: -35px;
