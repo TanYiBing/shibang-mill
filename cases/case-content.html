@@ -67,9 +67,9 @@
     <div class="product_banner container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-xs-12" style="margin-bottom:20px;">
-                <a href="#">
-                    <img class="img-responsive" src="../images/product/u358.jpg" alt="...">
-                </a>
+                    <p>
+                        <img src="../images/bfqgp/Feldspar_Quartz_Grinding_Plant.jpg" alt="" >
+                    </p>
             </div>
             <div class="col-lg-8 col-md-8 col-xs-12">
                 <p class="media-heading">Project Name: <span>Bentonite Processing Project for a Drilling Mud and Metallurgical
@@ -84,6 +84,9 @@
                         the sodium bentonite is dried by a dryer, and the dried material</span>
                 </p>
             </div>
+        </div>
+        <div class="row">
+            
         </div>
     </div>
     <!-- product_banner-end -->
@@ -118,10 +121,11 @@
                         <p class="absolute">MTM (1.6-0.045mm)</p>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-4">
+                <div class="col-lg-3 col-md-3 col-xs-6 col-sm-4" style="padding-top: 20px;">
                     <a href="//www.sbm-mill.com/products/scm-mill.html" class="thumbnail mockPic_p relative">
                         <img src="../images/product/u215.jpg" alt="...">
                         <p class="absolute">SCM (38-3μm)</p>
+                        <div class="col-lg-12"></div>
                     </a>
                 </div>
             </div>
@@ -307,6 +311,14 @@
         </div>
     </footer>
     <script src="../bootstrap/js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function() {
+            var a = $('.product_banner .row div').eq(0).children('p').html();
+            $('.product_banner .row div').eq(0).children('p').remove();
+            $('.product_banner .row div').eq(0).append(a);
+            $('.product_banner .row div').eq(0).children().addClass('img-responsive');
+        })
+    </script>
 </body>
 
 </html>

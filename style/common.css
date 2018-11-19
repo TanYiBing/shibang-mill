@@ -190,7 +190,7 @@ q:after {
 /*清除浮动*/
 
 .clearfix {
-    clear: both;
+    clear: right;
     *zoom: 1;
 }
 
@@ -208,6 +208,23 @@ q:after {
 
 .absolute {
     position: absolute;
+}
+
+@media(min-width: 750px) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+        padding: 0 !important;
+    }
 }
 
 .boring>p {
@@ -295,6 +312,10 @@ q:after {
 
 /* case_banner-start */
 
+.case_item {
+    padding-right: 15px !important;
+}
+
 .case_item h2 {
     font-size: 18px;
     padding-top: 15px;
@@ -308,6 +329,12 @@ q:after {
     color: #999999;
 }
 
+.case_item li {
+    line-height: 22px;
+    font-size: 16px;
+    color: #999999;
+}
+
 .case_banner {
     width: 100%;
 }
@@ -316,8 +343,9 @@ q:after {
     margin-bottom: 40px;
 }
 
-.case_banner .case_item img {
+.case_item img {
     margin: 0px;
+    width: 100% !important;
 }
 
 .case_banner .case_item h2 {
@@ -461,23 +489,6 @@ q:after {
 @media(max-width: 750px) {
     .footer_container .footer_content .footer_pro {
         padding-left: 30px;
-    }
-}
-
-@media(min-width: 750px) {
-    .col-lg-1,
-    .col-lg-2,
-    .col-lg-3,
-    .col-lg-4,
-    .col-lg-5,
-    .col-lg-6,
-    .col-lg-7,
-    .col-lg-8,
-    .col-lg-9,
-    .col-lg-10,
-    .col-lg-11,
-    .col-lg-12 {
-        padding: 0 !important;
     }
 }
 
@@ -815,13 +826,19 @@ q:after {
     margin-bottom: 40px;
 }
 
+.product_banner img {
+    width: 100%;
+}
+
 .product_banner p {
+    color: #999999;
     font-size: 16px;
-    padding: 0 0 15px 20px;
 }
 
 .product_banner span {
-    color: #999999;
+    color: #333;
+    font-size: 14px;
+    padding: 0 0 15px 20px;
 }
 
 /* product_banner-end */
@@ -1275,7 +1292,6 @@ q:after {
 .home_header_nav .navbar-default .navbar-nav li.active:hover>a {
     background-color: rgba(255, 255, 255, 0);
     color: #fff;
-
 }
 
 .home_header_nav .header_nav li a {
@@ -1586,7 +1602,7 @@ q:after {
 }
 
 .product_bottom_banner a.pic_item .col-lg-4 {
-    padding: 0 15px 0 0!important;
+    padding: 0 15px 0 0 !important;
 }
 
 /* product_bottom_banner-end */
