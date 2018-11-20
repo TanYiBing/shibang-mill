@@ -510,6 +510,25 @@
         </div>
     </footer>
     <script src="../bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/js/livechat.js"></script>
+        <script type="text/javascript">
+
+            function textacc() {
+                ga('send', 'event', '商务通', '接受', 'chat');
+            }
+
+            function checkopen() {
+                if (window.hasOwnProperty('openZoosUrl') && !openZoosUrl.custom) {
+                    window.clearInterval(checking)
+                    window.openZoosUrl = function (url, data) {
+                        openZoosUrl.custom = true;
+                        if (typeof (openZoosUrl_UserDefine) == 'function') { if (openZoosUrl_UserDefine()) return; }; if (typeof (LR_istate) != 'undefined') { LR_istate = 3; } var lr_url1 = url; if (typeof (LR_opentimeout) != 'undefined' && typeof (LR_next_invite_seconds) != 'undefined') LR_next_invite_seconds = 999999; if (url == 'sendnote') { url = LR_sysurl + 'LR/Chatwin2.aspx?siteid=' + LR_websiteid + '&cid=' + LR_cid + '&sid=' + LR_sid + '&lng=' + LR_lng + '&p=' + escape(location.href) + lr_refer5238(); } else { url = ((LR_userurl0 && typeof (LR_userurl) != 'undefined') ? LR_userurl : (LR_sysurl + 'LR/Chatpre.aspx')) + '?id=' + LR_websiteid + '&cid=' + LR_cid + '&lng=' + LR_lng + '&sid=' + LR_sid + '&p=' + escape(location.href) + lr_refer5238(); } if (typeof (LR_UserSSL) != 'undefined' && LR_UserSSL && url.charAt(4) == ':') url = url.substring(0, 4) + 's' + url.substring(4, url.length); if (!data) { if (typeof (LR_explain) != 'undefined' && LR_explain != '') { url += '&e=' + escape(escape(LR_explain)); } else if (typeof (LiveAutoInvite1) != 'undefined') { url += '&e=' + escape(escape(LiveAutoInvite1)); } } if (typeof (LR_ucd) != 'undefined') { url += '&ucd=' + escape(LR_ucd); } if (data) url += data; url += '&d=' + new Date().getTime(); if (lr_url1 == 'fchatwin') { LR_ClientEnd = 0; window.location = url + '&f=1'; return; } var oWindow; try { if (LR_isMobile) { if (LR_checkagent('sogoumse')) { window.location = url; } else { oWindow = window.open(url); } } else if (LR_checkagent('opera|safari|se 2.x')) { oWindow = window.open(url); } else { oWindow = window.open(url, 'LRWIN_' + LR_websiteid, 'toolbar=no,width=630,height=435,resizable=yes,location=no,scrollbars=no,left=' + ((screen.width - 630) / 4) + ',top=' + ((screen.height - 435) / 4)); } if (oWindow == null) { LR_ClientEnd = 0; window.location = url; return; } oWindow.focus(); } catch (e) { if (oWindow == null) { LR_ClientEnd = 0; window.location = url; } }
+                        textacc();
+                    }
+                }
+            }
+            var checking = window.setInterval(checkopen, 200);
+        </script>
 </body>
 
 </html>
