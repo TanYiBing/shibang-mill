@@ -397,9 +397,9 @@ q:after {
     color: #bbbbbb;
     border-radius: 0;
     box-shadow: none;
+    margin-bottom: 5px;
+    border: 1px solid #E4E4E4;
 }
-
-.form-horizontal .form-control {}
 
 /* form_banner-end */
 
@@ -785,7 +785,7 @@ q:after {
 }
 
 .address_banner .special_address .mock_content>p {
-    padding: 0 0 10px 30px;
+    padding: 0 0 0 30px;
     font-size: 16px;
 }
 
@@ -803,7 +803,7 @@ q:after {
 
 .address_banner .address_item>p {
     font-size: 16px;
-    padding: 0 0 0 20px;
+    padding: 0 20px 0 20px;
     color: #999999;
 }
 
@@ -1399,6 +1399,12 @@ q:after {
 
 .home_product_banner .thumbnail img {
     margin: 0;
+}
+
+.home_product_banner .thumbnail h3 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .home_product_banner h3 {
