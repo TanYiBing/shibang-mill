@@ -1848,8 +1848,9 @@ q:after {
     color: #fff;
 }
 
-.case_pills .nav-pills li.active a {
+.case_pills .nav-pills li.active>a {
     background-color: #075CCB;
+    color: #fff;
 }
 
 .cases_banner .cases_banner_content {
