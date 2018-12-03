@@ -1769,23 +1769,34 @@ q:after {
 
 /* materialall_banner-strat */
 
-.materialall_banner {
-    width: 100%;
+.materialall_banner_content {
     height: 300px;
     background: url(../images/materiel/u1508.jpg) no-repeat center;
     background-size: cover;
     color: #fff;
     overflow: hidden;
+    z-index: -2;
 }
 
-.materialall_banner .materialall_banner_content h2 {
+.materialall_banner_content h2 {
     font-size: 24px;
     padding-top: 50px;
 }
 
-.materialall_banner .materialall_banner_content p {
+.materialall_banner_content p {
     font-size: 16px;
     padding-top: 20px;
+    line-height: 28px;
+    z-index: 2;
+}
+
+.materialall_banner_content a {
+    padding-right: 25px;
+    color: #fff;
+}
+
+.materialall_banner_content a:hover {
+    color: #FF9900;
 }
 
 /* materialall_banner-end */
