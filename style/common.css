@@ -225,6 +225,12 @@ q:after {
 
 /* urlnav-start */
 
+.lcption {
+    height: 436px;
+    background: url(../images/solution/solution-banner-coal.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .breadcrumb {
     background-color: #fff !important;
 }
