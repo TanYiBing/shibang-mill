@@ -251,7 +251,7 @@
     </div>
     <!-- application_banner-end -->
     <!-- form_banner-start -->
-    <div class="form_banner">
+    <div class="form_banner" id="product_contact">
         <div class="container header_20">
             <div class="row">
                 <div class="col-lg-12">
@@ -262,9 +262,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p style="color:#999999;margin-bottom:20px;">If you would like to get help immediately, PLS click the
-                        LIVE-CHAT, which is fixed on the right of browser. Meanwhile, you can also fill your requirements
-                        on the following form, we will contact you on the right time.</p>
+                    <p style="color:#999999;margin-bottom:20px;">If you would like to get help immediately, PLS click the LIVE-CHAT,
+                        which is fixed on the right of browser. Meanwhile, you can also fill your requirements on the following
+                        form, we will contact you on the right time.</p>
                 </div>
             </div>
         </div>
@@ -276,7 +276,7 @@
                     <div class="form-group">
                         <div class="col-md-6">
                             <label class="sr-only" for="name">Your Name</label>
-                            <input type="text" class="form-control" name="name" placeholder="Name" id="name">
+                            <input type="text" class="form-control" name="name" placeholder="Name" id="name" required>
                         </div>
                         <div class="col-md-6">
                             <label class="sr-only" for="phone">Your Phone</label>
@@ -286,27 +286,17 @@
                     <div class="form-group">
                         <div class="col-md-6">
                             <label class="sr-only" for="email">Your Email</label>
-                            <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                            <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
                         </div>
                         <div class="col-md-6">
-                            <label class="sr-only" for="company">Your Company</label>
-                            <input type="text" class="form-control" name="company" placeholder="Company Name" id="company">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-6">
-                            <label class="sr-only" for="country">Localtion Of Equipment</label>
-                            <input type="text" class="form-control" name="country" placeholder="Location Of Equipment" id="country">
-                        </div>
-                        <div class="col-md-6">
-                            <label class="sr-only" for="application">Application</label>
-                            <input type="text" class="form-control" name="application" placeholder="Application" id="application">
+                            <label class="sr-only" for="country">Country</label>
+                            <input type="text" class="form-control" name="country" placeholder="Country" id="country" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label class="sr-only" for="application">Select Product</label>
-                            <select id="product" class="form-control">
+                            <select id="product" class="form-control" style="color:#999;">
                                 <option value="0" selected disabled>Select Product</option>
                                 <optgroup label="Crushing Machines">
                                     <option value="1">Jaw Crusher</option>
@@ -322,32 +312,6 @@
                                     <option value="9">100-625mesh Powder Mill</option>
                                     <option value="10">625-2500mesh Powder Mill</option>
                                 </optgroup>
-                                <optgroup label="Mobile Plants">
-                                    <option value="11">Wheel Mobile Crushing plant</option>
-                                    <option value="12">Track-type mobile crushing plant</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="sr-only" for="material">Select Material</label>
-                            <select id="material" class="form-control">
-                                <option value="0" selected disabled>Select Material</option>
-                                <option value="1">Limestone</option>
-                                <option value="2">Calcite</option>
-                                <option value="3">Coal Powder</option>
-                                <option value="4">Gypsum</option>
-                                <option value="5">Dolomite</option>
-                                <option value="6">Barite</option>
-                                <option value="7">Marble</option>
-                                <option value="8">Talc</option>
-                                <option value="9">Basalt</option>
-                                <option value="10">Granite</option>
-                                <option value="11">Building Wastes</option>
-                                <option value="12">Pebble</option>
-                                <option value="13">Tuff</option>
-                                <option value="14">Tailing</option>
-                                <option value="15">Feldspar</option>
-                                <option value="16">&gt;&gt;Others</option>
                             </select>
                         </div>
                     </div>
@@ -363,7 +327,7 @@
                     </div>
                 </form>
             </div>
-
+    
         </div>
     </div>
     <!-- form_banner-end -->
