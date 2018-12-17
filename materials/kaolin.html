@@ -282,7 +282,7 @@
                         </div>
                         <div class="col-md-6">
                             <label class="sr-only" for="phone">Your Phone</label>
-                            <input type="text" class="form-control" required name="phone" placeholder="Tel" id="phone">
+                            <input type="text" class="form-control" name="phone" placeholder="Tel" id="phone">
                         </div>
                     </div>
                     <div class="form-group">
@@ -300,6 +300,15 @@
                             <label class="sr-only" for="application">Select Product</label>
                             <select id="product" class="form-control" style="color:#999;">
                                 <option value="0" selected disabled>Select Product</option>
+                                <optgroup label="Grinding Mills">
+                                    <option value="8">European Grinding Mill</option>
+                                    <option value="9">Medium-speed Raymond Mill</option>
+                                    <option value="10">Vertical Grinding Mill</option>
+                                    <option value="11">Ultrafine Vertical Mill</option>
+                                    <option value="12">Ultrafine Grinding Mill</option>
+                                    <option value="13">Ball Mill</option>
+                                    <option value="14">Hammer Mill</option>
+                                </optgroup>
                                 <optgroup label="Crushing Machines">
                                     <option value="1">Jaw Crusher</option>
                                     <option value="2">Cone Crusher</option>
@@ -309,11 +318,7 @@
                                     <option value="6">Vibrating Screen</option>
                                     <option value="7">Belt Conveyor</option>
                                 </optgroup>
-                                <optgroup label="Grinding Mills">
-                                    <option value="8">0-3mm Powder Mill</option>
-                                    <option value="9">100-625mesh Powder Mill</option>
-                                    <option value="10">625-2500mesh Powder Mill</option>
-                                </optgroup>
+    
                             </select>
                         </div>
                     </div>
